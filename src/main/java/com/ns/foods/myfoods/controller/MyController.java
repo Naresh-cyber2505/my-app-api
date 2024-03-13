@@ -43,6 +43,17 @@ public class MyController {
 //        return ResponseEntity.ok(this.studentRepository.findAll());
     }
 
+    @GetMapping("/health")
+    public String getHealth()
+    {
+        // get as name inside object
+
+        return "working";
+
+        // get as objects
+//        return ResponseEntity.ok(this.studentRepository.findAll());
+    }
+
     @DeleteMapping("/delete/{id}")
     public ResponseEntity<?> deleteStudent(@PathVariable String id) {
 
