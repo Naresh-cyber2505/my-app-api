@@ -48,7 +48,7 @@ public class MyController {
     {
         // get as name inside object
 
-        return "working";
+        return "working fine";
 
         // get as objects
 //        return ResponseEntity.ok(this.studentRepository.findAll());
